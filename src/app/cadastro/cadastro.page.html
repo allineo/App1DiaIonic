@@ -9,17 +9,22 @@
 
     <div class="ion-padding">
       <ion-label position="stacked" color="primary">
+        <ion-icon name="newspaper-outline"></ion-icon>
         Envie-nos seu feedback, dúvidas ou sugestões:</ion-label>
       <ion-textarea name="messageField" rows="4" [(ngModel)]="messageField"></ion-textarea>
     </div>
 
     <div class="ion-padding">
-      <ion-label position="stacked" color="primary">Informação de contato:</ion-label>
+      <ion-label position="stacked" color="primary">
+      <ion-icon name="person-outline"></ion-icon>
+      Informação de contato:</ion-label>
       <ion-input name="contactField" type="text" [(ngModel)]="contactField"></ion-input>
     </div>
 
     <div class="ion-padding">
-      <ion-button type="submit" expand="block" name="buttonLogin">ENVIAR</ion-button>
+      <ion-button type="submit" expand="block" name="buttonLogin"> 
+        ENVIAR  
+        <ion-icon name="arrow-forward-outline"></ion-icon></ion-button>
     </div>
 
   </form>
